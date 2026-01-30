@@ -48,7 +48,7 @@ h1 {
     background-color: var(--accent1-color);
     color: var(--secondary-color);
 }
-.hero article img {
+.hero img {
     float: right;
     width: 125px;
 }
