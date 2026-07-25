@@ -52,7 +52,7 @@ h1 {
     background-color: var(--background1-color);
     color: var(--accent1-color);
 }
-article {
+.hero article {
     width: 100%;
     margin: 0;
 }
@@ -61,8 +61,12 @@ article {
     width: 405px;
     height: auto;
     border-radius: 20px;
+    border: 1px solid var(--accent2-color);
     margin: 20px 0 0 5px;
     padding: 0;
+}
+.socialmedia a {
+    text-decoration: none;
 }
 .socialmedia img {
     width: 20px;
@@ -78,6 +82,6 @@ article {
 list-style: none;
 }
 footer nav, footer p {
-    background-color: wheat;
+    background-color: var(--secondary-color);
     color: black;
 }
