@@ -91,14 +91,14 @@ footer {
 }
 footer nav, footer p {
     background-color: var(--secondary-color);
-    color: black;
+    color: var(--background1-color);
 }
 header {
     margin: 1rem auto;
     display: flex;
     grid-template-columns: 120px 1fr 1fr;
     align-items: center;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--accent1-color);
     max-width: 1000px;
     justify-content: space-around;
 }
