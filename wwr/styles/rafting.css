@@ -92,6 +92,7 @@ header {
     align-items: center;
     border-bottom: 1px solid #ccc;
     max-width: 1000px;
+    justify-content: space-around;
 }
 header nav ul {
     display: flex;
@@ -103,12 +104,6 @@ header nav a {
     background-color: var(--background1-color);
     border: 1px solid var(--accent1-color);
     min-width: 80px;
-    
-}
-header li {
-    /**border: solid 2px var(--primary-color);**/
-}
-header nav {
     
 }
 main section {
