@@ -109,3 +109,22 @@ header nav a {
 main section {
     text-align: center;
 }
+.history img {
+    width: 250px;
+    height: 250px;
+}
+.history {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.history p {
+    text-align: center;
+}
+.adventure img {
+    width: 170px;
+    height: auto;
+}
+.adventure {
+    display: flex;
+}
