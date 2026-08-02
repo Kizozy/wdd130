@@ -33,6 +33,9 @@ nav, p, section, article {
 }
 .socialmedia {
     text-decoration: none;
+    display: flex;
+    justify-content: right;
+    background-color: var(--background1-color);
 }
 .hero {
     position: relative;
@@ -74,9 +77,11 @@ h1 {
     background-color: var(--background2-color);
     margin: 0 30px;
 }
-.socialmedia ul, footer p {
+footer p {
     text-align: center;
-    
+}
+footer {
+    background-color: var(--secondary-color);
 }
 .socialmedia li {
     list-style: none;
