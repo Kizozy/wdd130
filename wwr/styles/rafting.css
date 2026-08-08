@@ -137,13 +137,6 @@ main section {
     display: flex;
 }
 
-
-
-
-
-
-/* Base Resets */
-/* Company Info Section */
 .info {
     text-align: center;
     margin: 30px 0;
@@ -161,11 +154,10 @@ main section {
 }
 
 .info a {
-    color: #333;
+    color: var(--accent1-color);
     text-decoration: none;
 }
 
-/* Contact and Map Split Layout */
 .map {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -173,16 +165,14 @@ main section {
     margin-bottom: 40px;
 }
 
-/* Mock Map Canvas */
 .mapped {
     width: 100%;
     height: auto;
-    background-color: #e0e0e0;
-    border: 1px solid #ccc;
+    background-color: var(--background1-color);
+    border: 1px solid var(--accent1-color);
     position: relative;
 }
 
-/* Form Styles */
 .note {
     display: grid;
     grid-template-columns: 120px 1fr;
@@ -200,7 +190,7 @@ input[type="email"],
 textarea {
     width: 100%;
     padding: 8px;
-    border: 1px solid #666;
+    border: 1px solid var(--background1-color);
     border-radius: 4px;
     font-size: 14px;
 }
