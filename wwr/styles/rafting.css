@@ -22,7 +22,7 @@ body {
 header nav {
     text-align: center;
 }
-header, main, footer {
+header, main, footer, .team{
     width: 840px;
     margin: 0 auto;
 }
@@ -93,7 +93,7 @@ footer nav, footer p {
     background-color: var(--secondary-color);
     color: var(--background1-color);
 }
-header {
+header{
     margin: 1rem auto;
     display: flex;
     grid-template-columns: 120px 1fr 1fr;
@@ -135,4 +135,147 @@ main section {
 }
 .adventure {
     display: flex;
+}
+
+
+
+
+
+
+/* Base Resets */
+/* Company Info Section */
+.info {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.info h1 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.info address {
+    font-style: normal;
+    font-size: 14px;
+}
+
+.info a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Contact and Map Split Layout */
+.map {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+/* Mock Map Canvas */
+.mapped {
+    width: 100%;
+    height: auto;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+/* Form Styles */
+.note {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    margin-bottom: 15px;
+    align-items: start;
+}
+
+.note label {
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.radio-group {
+    border: none;
+}
+
+.radio-group legend {
+    float: left;
+    width: 120px;
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+.radio-option, .checkbox-option {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.checkbox-option {
+    margin-left: 120px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.submit-btn {
+    margin-left: 120px;
+    width: calc(100% - 120px);
+    padding: 10px;
+    background-color: var(--background1-color);
+    border: 1px solid var(--accent1-color);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Team Profile Section */
+.team {
+    border-top: 1px solid var(--accent1-color);
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.team-section h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.profile-card {
+    text-align: center;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    background-color: var(--primary-color);
+    border: 1px solid var(--background1-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.profile-card p {
+    font-size: 14px;
 }
