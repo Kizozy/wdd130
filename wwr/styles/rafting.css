@@ -22,7 +22,7 @@ body {
 header nav {
     text-align: center;
 }
-header, main, footer, .team{
+header, main, footer, .teams{
     width: 840px;
     margin: 0 auto;
 }
@@ -234,7 +234,7 @@ textarea {
     font-size: 14px;
 }
 
-.team {
+.teams {
     border-top: 1px solid var(--accent1-color);
     padding-top: 20px;
     margin-bottom: 40px;
