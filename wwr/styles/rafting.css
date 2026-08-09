@@ -172,6 +172,9 @@ main section {
     border: 1px solid var(--accent1-color);
     position: relative;
 }
+iframe {
+    width: 100%;
+}
 
 .note {
     display: grid;
@@ -190,7 +193,7 @@ input[type="email"],
 textarea {
     width: 100%;
     padding: 8px;
-    border: 1px solid var(--background1-color);
+    border: 1px solid var(--accent1-color);
     border-radius: 4px;
     font-size: 14px;
 }
@@ -231,7 +234,6 @@ textarea {
     font-size: 14px;
 }
 
-/* Team Profile Section */
 .team {
     border-top: 1px solid var(--accent1-color);
     padding-top: 20px;
@@ -254,7 +256,7 @@ textarea {
     text-align: center;
 }
 
-.profile-image {
+.profile-image img{
     width: 120px;
     height: 120px;
     background-color: var(--primary-color);
